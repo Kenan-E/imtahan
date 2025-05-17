@@ -1,0 +1,60 @@
+h1 {
+    text-align:center;
+    color:beige;
+    font-family: "Roboto", sans-serif
+}
+
+#first {
+    text-align:center;
+    font-size: 1em;
+    color:beige;
+    font-family: "Roboto", sans-serif
+
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+}
+
+#others{
+    font-size: 1.1em ;
+    color:beige;
+    text-align:center;
+    font-family: "Verdana", sans-serif;
+    min-width: 70px
+}
+
+
+.timer {
+  text-align:center;
+  font-size: 1.2em;
+  background-color:rgba(3,78,136,0.7);
+  width:40px;
+  height:60px;
+  line-height:60px;
+  color:white;
+  margin:10px;
+  position:relative;
+  font-family: 'Fira code', monospace;
+  transition: ease-in-out 0.2s;
+}
+
+.timer:hover{
+  text-align:center;
+  font-size: 2em;
+  background-color:rgba(3,78,136,0.7);
+  width:60px;
+  height:80px;
+  line-height:80px;
+  color:white;
+  margin:10px;
+  position:relative;
+  font-family: 'Fira code', monospace;
+}
+
+body {
+    background-color:#0d1117
+}
