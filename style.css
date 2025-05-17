@@ -1,13 +1,13 @@
 h1 {
     text-align:center;
-    color:beige;
+    color:white;
     font-family: "Roboto", sans-serif
 }
 
 #first {
     text-align:center;
     font-size: 1em;
-    color:beige;
+    color:white;
     font-family: "Roboto", sans-serif
 
 }
@@ -21,7 +21,7 @@ div {
 
 #others{
     font-size: 1.1em ;
-    color:beige;
+    color:white;
     text-align:center;
     font-family: "Verdana", sans-serif;
     min-width: 70px
@@ -45,10 +45,10 @@ div {
 .timer:hover{
   text-align:center;
   font-size: 2em;
-  background-color:rgba(3,78,136,0.7);
-  width:60px;
-  height:80px;
-  line-height:80px;
+  background-color:rgba(3, 78, 136, 0);
+  width:80px;
+  height:100px;
+  line-height:100px;
   color:white;
   margin:10px;
   position:relative;
@@ -56,5 +56,6 @@ div {
 }
 
 body {
-    background-color:#0d1117
+    background-color:#0d1117;
+
 }
