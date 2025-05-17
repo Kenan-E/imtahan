@@ -1,5 +1,5 @@
 var timer = () => {
-let date = new Date('May 25, 2025 11:00:00 GMT+04:00') - new Date();
+let date = new Date('May 25, 2025 10:00:00 GMT+04:00') - new Date();
 let days = String(Math.floor(date/(1000*60*60*24))).padStart(2, '0');
 let hours = String(Math.floor(date % (1000*60*60*24) / (1000*60*60))).padStart(2, '0');
 let minutes = String(Math.floor(date % (1000*60*60) / (1000*60))).padStart(2, '0');
