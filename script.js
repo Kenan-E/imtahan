@@ -40,8 +40,8 @@ document.getElementById("minutes").textContent = minutes;
 document.getElementById("seconds").textContent = seconds;
 }
 
-interval=setInterval (timer2,1000)
-timer2();
+interval=setInterval (timer1,1000)
+timer1();
 
 function btn2() {
     clearInterval(interval)
