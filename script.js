@@ -1,7 +1,7 @@
 let interval;
 
 var timer2 = () => {
-let date = new Date('May 25, 2025 10:00:00 GMT+04:00') - new Date();
+let date = new Date('July 6, 2025 10:00:00 GMT+04:00') - new Date();
 let days = String(Math.floor(date/(1000*60*60*24))).padStart(2, '0');
 let hours = String(Math.floor(date % (1000*60*60*24) / (1000*60*60))).padStart(2, '0');
 let minutes = String(Math.floor(date % (1000*60*60) / (1000*60))).padStart(2, '0');
@@ -21,7 +21,7 @@ document.getElementById("seconds").textContent = seconds;
 }
 
 var timer1 = () => {
-let date = new Date('June 1, 2025 10:00:00 GMT+04:00') - new Date();
+let date = new Date('July 13, 2025 10:00:00 GMT+04:00') - new Date();
 let days = String(Math.floor(date/(1000*60*60*24))).padStart(2, '0');
 let hours = String(Math.floor(date % (1000*60*60*24) / (1000*60*60))).padStart(2, '0');
 let minutes = String(Math.floor(date % (1000*60*60) / (1000*60))).padStart(2, '0');
@@ -40,8 +40,8 @@ document.getElementById("minutes").textContent = minutes;
 document.getElementById("seconds").textContent = seconds;
 }
 
-interval=setInterval (timer1,1000)
-timer1();
+interval=setInterval (timer2,1000)
+timer2();
 
 function btn2() {
     clearInterval(interval)
